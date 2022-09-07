@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-// hook 
+// imutabilidade - uma variavel nunca vai ter seu valor alterado, mas sim vai receber um valor novo.
 
 export function Counter() {
 
@@ -9,7 +9,6 @@ export function Counter() {
     function increment(){
         setCounter(counter + 1);
     }
-
 
     return (
         <div>
